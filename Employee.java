@@ -18,6 +18,7 @@ public void showDetails()
   System.out.println("Employee ID :" + emp_id);  
   System.out.println("Salary :" + Salary);
 }
+     
     public static void main(String args[]) throws java.lang.Exception
     {
        //* Create two objects of 'Employee' class       
