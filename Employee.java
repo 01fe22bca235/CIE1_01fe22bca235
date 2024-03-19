@@ -25,6 +25,11 @@ public void showDetails()
         //* and call the function showDetails() 
         Employee e1 = new Employee("Akshata", 2233, 5000);
         e1.showDetails();
+          System.out.println("Total salary:"+e1.getSalary());
+        float bonus= 1000;
+        System.out.println("\nAfter giving a bonus of "+bonus+" rupees");
+        e1.Salary += bonus;
+         e1.showDetails();
     }
 
 }
